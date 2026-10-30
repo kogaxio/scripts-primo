@@ -1,0 +1,64 @@
+name: Actualizador de Feed RSS
+
+on:
+  schedule:
+    # Se ejecuta automáticamente cada 4 horas
+    - cron: '0 */4 * * *'
+  workflow_dispatch: # Permite ejecutarlo manualmente con un botón
+
+jobs:
+  build-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v3
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Descargar y parsear el RSS de Wired
+        run: |
+          python -c "
+          import urllib.request
+          import xml.etree.ElementTree as ET
+          import json
+
+          url = 'https://www.wired.com/feed/tag/ai/latest/rss'
+          req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+          
+          try:
+              xml_data = urllib.request.urlopen(req).read()
+              root = ET.fromstring(xml_data)
+              items = []
+              namespaces = {'media': 'http://search.yahoo.com/mrss/'}
+
+              for item in root.findall('.//item')[:4]:
+                  title = item.find('title').text if item.find('title') is not None else 'Sin título'
+                  link = item.find('link').text if item.find('link') is not None else '#'
+                  pubDate = item.find('pubDate').text if item.find('pubDate') is not None else ''
+                  
+                  thumb_elem = item.find('media:thumbnail', namespaces)
+                  thumbnail = thumb_elem.attrib.get('url') if thumb_elem is not None else 'https://images.unsplash.com/photo-1677442136019-21780efad99a?w=400'
+                  
+                  items.append({
+                      'title': title,
+                      'link': link,
+                      'pubDate': pubDate,
+                      'thumbnail': thumbnail
+                  })
+
+              with open('wired-feed.json', 'w', encoding='utf-8') as f:
+                  json.dump(items, f, ensure_ascii=False, indent=2)
+              print('JSON generado con éxito.')
+          except Exception as e:
+              print(f'Error al procesar el RSS: {e}')
+          "
+
+      - name: Guardar cambios en el repositorio
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore: auto-update wired-feed.json"
+          file_pattern: "wired-feed.json"
