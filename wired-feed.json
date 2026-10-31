@@ -1,5 +1,17 @@
 [
   {
+    "title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims",
+    "link": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+    "pubDate": "Sat, 31 Oct 2026 12:00:00 +0000",
+    "thumbnail": "https://media.wired.com/photos/6ae4e9f503c2c36f4cfc913c/master/pass/KernelPanic_10312026_v1.jpg"
+  },
+  {
+    "title": "Meta’s Muse Could Upend All Kinds of Businesses. It Hasn’t Yet",
+    "link": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
+    "pubDate": "Sat, 31 Oct 2026 10:30:00 +0000",
+    "thumbnail": "https://media.wired.com/photos/6ae513e3393ae92e17e66a04/master/pass/Business_Everyone%E2%80%99s%20Questioning%20Meta%E2%80%99s%20Hype%20About%20Muse%20Meta%20Says%20Muse%20Is%20Already%20a%20Big%20Shopper_v1.jpg"
+  },
+  {
     "title": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
     "link": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
     "pubDate": "Sat, 31 Oct 2026 10:00:00 +0000",
@@ -10,17 +22,5 @@
     "link": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
     "pubDate": "Fri, 30 Oct 2026 21:19:26 +0000",
     "thumbnail": "https://media.wired.com/photos/6ae29474af20331957eab922/master/pass/business-Uncanny-Valley-anthropic-ipo.jpg"
-  },
-  {
-    "title": "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System",
-    "link": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
-    "pubDate": "Thu, 29 Oct 2026 18:39:43 +0000",
-    "thumbnail": "https://media.wired.com/photos/6ae113db6239096998a832f8/master/pass/102726-department-of-defense-ai-agent.gif"
-  },
-  {
-    "title": "The ‘Pain in the Ass’ Math That Could Save Vibe Coding From Itself",
-    "link": "https://www.wired.com/story/software-verification-is-the-hot-new-answer-to-the-ai-safety-crisis/",
-    "pubDate": "Thu, 29 Oct 2026 15:00:00 +0000",
-    "thumbnail": "https://media.wired.com/photos/6ae2968f0262809bad6615e8/master/pass/Untitled-6.gif"
   }
 ]
