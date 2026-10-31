@@ -1,5 +1,11 @@
 [
   {
+    "title": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
+    "link": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+    "pubDate": "Sat, 31 Oct 2026 10:00:00 +0000",
+    "thumbnail": "https://media.wired.com/photos/6ae4d6bbd55a0e2bc0a8d990/master/pass/103026-AI%20Mouse%2002.jpg"
+  },
+  {
     "title": "How a Contractor’s Claude Agent Got Into the Pentagon",
     "link": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
     "pubDate": "Fri, 30 Oct 2026 21:19:26 +0000",
@@ -16,11 +22,5 @@
     "link": "https://www.wired.com/story/software-verification-is-the-hot-new-answer-to-the-ai-safety-crisis/",
     "pubDate": "Thu, 29 Oct 2026 15:00:00 +0000",
     "thumbnail": "https://media.wired.com/photos/6ae2968f0262809bad6615e8/master/pass/Untitled-6.gif"
-  },
-  {
-    "title": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race",
-    "link": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
-    "pubDate": "Thu, 29 Oct 2026 14:00:00 +0000",
-    "thumbnail": "https://media.wired.com/photos/6ae34b392cfd29b998d6a112/master/pass/Business_Mistral%20Says%20Its%20%E2%80%98Le%20Chonk%E2%80%99%20Model%20Can%20Outperform%20Top%20Chinese%20Models%20in%20Coding%20and%20Cybersecurity_v3.jpg"
   }
 ]
