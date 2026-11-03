@@ -1,5 +1,17 @@
 [
   {
+    "title": "Here's Why You Shouldn't Use AI to Vote",
+    "link": "https://www.wired.com/story/heres-why-you-shouldnt-use-ai-to-vote/",
+    "pubDate": "Tue, 03 Nov 2026 14:45:08 +0000",
+    "thumbnail": "https://media.wired.com/photos/6ae90c8c0f4d264d864a7d42/master/pass/Politics_Here's%20Why%20You%20Shouldn't%20Use%20AI%20to%20Vote_v1.jpg"
+  },
+  {
+    "title": "‘Our Risk, Their Reward’: Zohran Mamdani on AI and Data Centers",
+    "link": "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani/",
+    "pubDate": "Tue, 03 Nov 2026 11:00:00 +0000",
+    "thumbnail": "https://media.wired.com/photos/6ae90c349efc9a24a32255ed/master/pass/WEB_WIRED_Mamdani_HR-00808.jpg"
+  },
+  {
     "title": "When You Should—and Shouldn’t—Use AI to Search the Web",
     "link": "https://www.wired.com/story/when-you-should-and-shouldnt-use-ai-to-search-the-web/",
     "pubDate": "Mon, 02 Nov 2026 12:00:00 +0000",
@@ -10,17 +22,5 @@
     "link": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
     "pubDate": "Mon, 02 Nov 2026 10:00:00 +0000",
     "thumbnail": "https://media.wired.com/photos/6adfc11328ba980ed3d0219a/master/pass/Security_ChinaAppsBehindDeepFakes_v1.jpg"
-  },
-  {
-    "title": "Chatbots Are Leading Hikers Astray, With Dangerous Consequences",
-    "link": "https://www.wired.com/story/chatbots-are-leading-hikers-astray-with-dangerous-consequences/",
-    "pubDate": "Sun, 01 Nov 2026 10:30:00 +0000",
-    "thumbnail": "https://media.wired.com/photos/6ae22d8856ee4dcb93f11713/master/pass/HCN406-scaled.jpg"
-  },
-  {
-    "title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims",
-    "link": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
-    "pubDate": "Sat, 31 Oct 2026 12:00:00 +0000",
-    "thumbnail": "https://media.wired.com/photos/6ae4e9f503c2c36f4cfc913c/master/pass/KernelPanic_10312026_v1.jpg"
   }
 ]
