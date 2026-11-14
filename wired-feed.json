@@ -1,5 +1,17 @@
 [
   {
+    "title": "Beware the New AI-Fueled Ransomware Boom",
+    "link": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
+    "pubDate": "Sat, 14 Nov 2026 13:00:00 +0000",
+    "thumbnail": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=400"
+  },
+  {
+    "title": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
+    "link": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
+    "pubDate": "Sat, 14 Nov 2026 11:00:00 +0000",
+    "thumbnail": "https://media.wired.com/photos/6af209f8ab17b1a731ed42b4/master/pass/ai_aviation.gif"
+  },
+  {
     "title": "Microsoft 365 Crawls Back to Life After a 24-Hour Outage",
     "link": "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage/",
     "pubDate": "Fri, 13 Nov 2026 19:08:57 +0000",
@@ -10,17 +22,5 @@
     "link": "https://www.wired.com/story/jensen-huang-and-the-end-of-the-founder-fairy-tale/",
     "pubDate": "Fri, 13 Nov 2026 16:00:00 +0000",
     "thumbnail": "https://media.wired.com/photos/6af64d55d057d0b5e841f091/master/pass/Backchannel-Jensen-Business.jpg"
-  },
-  {
-    "title": "This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood",
-    "link": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
-    "pubDate": "Fri, 13 Nov 2026 11:45:00 +0000",
-    "thumbnail": "https://media.wired.com/photos/6af65ba58bac4203b57b5ba0/master/pass/Startup-Betting-on-AI-Microdramas-Culture.jpg"
-  },
-  {
-    "title": "Silicon Valley Is Still Defending Jensen Huang",
-    "link": "https://www.wired.com/story/silicon-valley-is-still-defending-jensen-huang/",
-    "pubDate": "Thu, 12 Nov 2026 22:29:43 +0000",
-    "thumbnail": "https://media.wired.com/photos/6af5104da36e580e1eb299b6/master/pass/Model-Behavior-Silicon-Valley-Waiting-for-Jensen-Scandal-to-Blow-Over-Business.jpg"
   }
 ]
